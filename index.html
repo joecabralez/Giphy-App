@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Giphy App</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="buttons">
+            <button data-giphy="bugs bunny">Bugs Bunny</button>
+            <button data-giphy="donald duck">Donald Duck</button>
+            <button data-giphy="trippy">Trippy Things</button>
+            <button data-giphy="Beyonce">Beyoncé</button>
+            <button data-giphy="laughing">LOL</button>
+            <button data-giphy="solange">Solange</button>
+            <button data-giphy="the xx">The xx</button>
+            <button data-giphy="dat boi">Here come Dat Boi</button>
+            <button data-giphy="selena">Bidi Bidi Bom Bom</button>
+            <button data-giphy="sex and the city">SATC</button>
+            <button data-giphy="Martini">Martini Me, Please</button>
+            <button data-giphy="slam dunk">Dunk it</button>
+            <button data-giphy="kanye west">Yeezy Taught Me</button>
+            <button data-giphy="the weeknd">XO</button>
+            <button data-giphy="fail">Epic Fails!</button>
+        </div>
+        <form id="giphy-form">
+            <label for="giphy-input">Add your own!</label>
+            <input type="text" id="giphy-input">
+            <br>
+            <!-- Button triggers new movie to be added -->
+            <input id="addGiphy" type="submit" value="Add your own Giphy">
+        </form>
+        <div class="gifsAppearHere"></div>
+    </div>
+    
+</body>
+
+<!--Jquery tag-->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!--Javascript tag-->
+    <script src="assets/javascript/game.js"></script>
+
+</html>
